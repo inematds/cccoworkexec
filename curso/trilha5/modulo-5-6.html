@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 5.6 — Estudos de caso por setor | Ensinando Cowork</title>
+  <title>Módulo 5.6 — Estudos de caso e variações por público | Ensinando Cowork</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { darkMode: 'class', theme: { extend: { colors: { primary: '#FACC15', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
@@ -93,18 +93,18 @@
 
   <header class="bg-gradient-to-br from-teal-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <span class="inline-block px-3 py-1 bg-teal-500/20 text-teal-400 text-xs font-semibold rounded-full mb-4">MÓDULO 5.6 · FINAL</span>
+      <span class="inline-block px-3 py-1 bg-teal-500/20 text-teal-400 text-xs font-semibold rounded-full mb-4">MÓDULO 5.6</span>
       <h1 class="text-3xl sm:text-4xl font-bold mb-4">🎒 Estudos de caso e variações por público</h1>
       <p class="text-lg text-neutral-400 max-w-3xl">
-        Mesmo playbook, ênfases diferentes. Cinco setores documentados — saúde, jurídico, e-commerce, startup técnica,
-        governo — com o ângulo que faz cada um fechar. Mais o método de 4 perguntas pra calibrar o workshop antes de
-        qualquer sessão.
+        O playbook do curso é genérico de propósito. Mas o setor do cliente reescreve metade das prioridades. Saúde
+        coloca compliance no centro; jurídico, confidencialidade; e-commerce, volume; startup, velocidade; governo, política.
+        Este módulo final percorre 5 casos reais e fecha com a regra de adaptação. É o último módulo do curso.
       </p>
       <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
-        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
-        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">50</div><div class="text-xs text-neutral-400">Minutos</div></div>
-        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Avançado</div><div class="text-xs text-neutral-400">Nível</div></div>
-        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Cases</div><div class="text-xs text-neutral-400">Tipo</div></div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">5</div><div class="text-xs text-neutral-400">Setores</div></div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">45</div><div class="text-xs text-neutral-400">Minutos</div></div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Aplicado</div><div class="text-xs text-neutral-400">Nível</div></div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Casos</div><div class="text-xs text-neutral-400">Tipo</div></div>
       </div>
     </div>
   </header>
@@ -115,43 +115,43 @@
     <section id="topico-1" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">1</span>
-        <h2 class="text-2xl font-bold">🏥 Caso 1: empresa de saúde</h2>
+        <h2 class="text-2xl font-bold">🏥 Caso 1 — empresa de saúde (compliance)</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Workshop pra área de saúde gira em torno de <strong class="text-teal-400">compliance, LGPD/HIPAA, dados de paciente e
-        audit logs</strong>. Demos sempre com dados sintéticos. Governança vira eixo central, não apêndice. Premium de 30–50%
-        no preço por causa do risco regulatório elevado.
+        Saúde é o setor onde o playbook genérico mais quebra. <strong class="text-teal-400">LGPD + dados de paciente +
+        risco de alucinação clínica</strong> formam um triângulo que muda o tom do workshop antes de começar. Bloco de
+        compliance vira segundo bloco da agenda (não opcional ao fim), e exemplos não-clínicos dominam a sessão hands-on.
       </p>
 
       <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🩺</span> Adaptações chave</h3>
-        <ul class="space-y-2 text-neutral-300">
-          <li><strong class="text-white">Demos:</strong> sempre dados sintéticos. Prontuários fictícios, nomes de paciente inventados.</li>
-          <li><strong class="text-white">Casos de uso seguros:</strong> resumo de literatura médica, rascunho de comunicação interna, geração de material educativo pra paciente.</li>
-          <li><strong class="text-white">Casos de uso evitados:</strong> diagnóstico, recomendação clínica direta, prescrição.</li>
-          <li><strong class="text-white">Governança:</strong> BAA (Business Associate Agreement) onde aplicável, audit logs, política interna documentada.</li>
-          <li><strong class="text-white">Pricing:</strong> +30–50% sobre tabela padrão; ciclo de venda 3–6 meses.</li>
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🩺</span> Ajustes no playbook</h3>
+        <ul class="space-y-2 text-neutral-300 text-sm">
+          <li><strong class="text-white">Bloco LGPD vira o 2º slot</strong> da agenda, logo após abertura do sponsor</li>
+          <li><strong class="text-white">Demos não usam dados de paciente</strong> nem fictícios realistas — usa-se relatório administrativo, ata, comunicação interna</li>
+          <li><strong class="text-white">"Não cole prontuário no chat"</strong> é regra repetida 3x na sessão</li>
+          <li><strong class="text-white">Casos de uso seguros:</strong> resumo de literatura, rascunho de comunicação ao paciente, padronização de relatório operacional</li>
+          <li><strong class="text-white">Sponsor obrigatório:</strong> Diretor Médico + CISO juntos no kick-off</li>
         </ul>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
-          <h4 class="font-bold text-emerald-400 mb-4">✓ O que abre porta</h4>
+          <h4 class="font-bold text-emerald-400 mb-4">✓ Casos de uso seguros</h4>
           <ul class="space-y-2 text-neutral-300 text-sm">
-            <li>Falar fluente em LGPD desde slide 1</li>
-            <li>Ter exemplo de política de uso pronta pra adaptar</li>
-            <li>Demonstrar dado sintético de qualidade</li>
-            <li>Conhecer caso público de saúde com IA (ainda que internacional)</li>
+            <li>Resumo de literatura científica recente</li>
+            <li>Padronização de relatório administrativo</li>
+            <li>Rascunho de comunicação a paciente (revisada por humano)</li>
+            <li>Tradução de procedimento interno</li>
           </ul>
         </div>
         <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-          <h4 class="font-bold text-red-400 mb-4">✗ O que mata</h4>
+          <h4 class="font-bold text-red-400 mb-4">✗ Casos a evitar no workshop</h4>
           <ul class="space-y-2 text-neutral-300 text-sm">
-            <li>Demo com qualquer dado real (mesmo que anonimizado)</li>
-            <li>Sugerir uso clínico direto sem ressalvas</li>
-            <li>"LGPD vai se ajustar pra IA" (não, ela já está)</li>
-            <li>Ignorar comitê de ética</li>
+            <li>Diagnóstico ou hipótese clínica</li>
+            <li>Análise de imagem médica em chat</li>
+            <li>Resumo de prontuário ao vivo</li>
+            <li>Qualquer dado com CPF/identificador</li>
           </ul>
         </div>
       </div>
@@ -161,40 +161,60 @@
     <section id="topico-2" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">2</span>
-        <h2 class="text-2xl font-bold">⚖️ Caso 2: jurídico</h2>
+        <h2 class="text-2xl font-bold">⚖️ Caso 2 — jurídico (confidencialidade)</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Escritórios de advocacia e departamentos jurídicos internos: foco em <strong class="text-teal-400">confidencialidade
-        cliente-advogado, verificação de citação (anti-alucinação de jurisprudência) e audit trail</strong>. Demos com contratos
-        sintéticos. Premium alto, ciclo de venda longo.
+        Escritório jurídico tem dois medos sobrepostos: <strong class="text-teal-400">vazar segredo de cliente</strong> e
+        <strong class="text-teal-400">alucinar precedente</strong>. O workshop precisa enfrentar os dois explicitamente.
+        O caso famoso do advogado dos EUA citando jurisprudência inventada (2023) é abertura útil — quebra a ilusão de
+        infalibilidade e mostra que o time precisa entender o produto, não fugir dele.
       </p>
 
-      <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">📜</span> Adaptações chave</h3>
-        <ul class="space-y-2 text-neutral-300">
-          <li><strong class="text-white">Foco em privilege:</strong> dados de cliente não podem sair pra terceiros. Discutir Claude for Work / Enterprise com BAA.</li>
-          <li><strong class="text-white">Anti-alucinação:</strong> demonstrar como pedir citação verificável e como conferir antes de usar. Citar caso público de advogados sancionados por jurisprudência inventada.</li>
-          <li><strong class="text-white">Casos de uso:</strong> revisão estrutural de contrato, sumarização de jurisprudência (com verificação), rascunho de petição (revisado por humano).</li>
-          <li><strong class="text-white">Workflow modelo:</strong> "Claude rascunha → humano verifica cada citação → Claude refina texto → humano aprova".</li>
-          <li><strong class="text-white">Pricing:</strong> +40–60% sobre tabela; ciclo 3–9 meses.</li>
-        </ul>
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">📋</span> Política mínima sugerida ao escritório</h3>
+        <pre class="bg-dark-900 rounded-lg p-4 text-sm text-neutral-300 overflow-x-auto font-mono whitespace-pre-wrap"><code>POLÍTICA DE USO DE IA — Escritório [Nome]
+─────────────────────────────────────────────
+
+1. Conta corporativa Claude/ChatGPT/Gemini com SSO.
+   Conta pessoal está proibida para trabalho.
+
+2. Nada de nome de cliente, número de processo,
+   CPF/CNPJ ou trecho literal de contrato no chat.
+   Anonimizar SEMPRE antes de colar.
+
+3. Toda citação de lei, súmula ou jurisprudência
+   gerada por IA deve ser verificada na fonte
+   original antes de uso. Sem exceção.
+
+4. Documentos finais com assistência de IA passam
+   por revisão humana sênior obrigatória.
+
+5. Em caso de dúvida sobre uso permitido, perguntar
+   ao [responsável] ANTES, não depois.
+
+Assinatura: ______________________
+</code></pre>
       </div>
 
       <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">⚠️</span> Trauma documentado</h3>
-        <p class="text-neutral-300 text-sm">
-          O caso <em>Mata vs. Avianca</em> (2023, EUA) — advogados sancionados por submeter petição com 6 citações
-          inventadas por ChatGPT — virou trauma fundacional do setor jurídico. <strong>Tratar alucinação como risco
-          operacional é tabela de entrada</strong>. Workshop que ignora isso perde credibilidade na primeira hora.
-        </p>
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">📚</span> Casos de uso que funcionam em jurídico</h3>
+        <ul class="space-y-2 text-neutral-300 text-sm">
+          <li><strong class="text-white">Resumo de contrato anonimizado:</strong> partes substituídas por "Parte A" e "Parte B"</li>
+          <li><strong class="text-white">Extração estruturada:</strong> cláusulas, prazos, multas em tabela</li>
+          <li><strong class="text-white">Rascunho de petição padrão:</strong> com revisão humana</li>
+          <li><strong class="text-white">Comparação de versões:</strong> contrato antes/depois</li>
+          <li><strong class="text-white">Tradução técnica:</strong> juridiquês ↔ linguagem para cliente</li>
+        </ul>
       </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Privilege</div><div class="text-sm text-neutral-400">Dados não vazam</div></div>
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Citação</div><div class="text-sm text-neutral-400">Verificável sempre</div></div>
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Audit trail</div><div class="text-sm text-neutral-400">Quem usou o quê</div></div>
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Humano no loop</div><div class="text-sm text-neutral-400">Não opcional</div></div>
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
+        <p class="text-neutral-300">
+          Mostre o caso do advogado punido por citar jurisprudência alucinada (Mata v. Avianca, 2023) na <strong>abertura</strong>,
+          não no fim. Quando a sala já entende o risco, fica receptiva a aprender o uso correto. Quando se mostra no fim,
+          parece desestímulo.
+        </p>
       </div>
     </section>
 
@@ -202,50 +222,53 @@
     <section id="topico-3" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">3</span>
-        <h2 class="text-2xl font-bold">🛒 Caso 3: e-commerce</h2>
+        <h2 class="text-2xl font-bold">🛒 Caso 3 — e-commerce (volume)</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        E-commerce: foco em <strong class="text-teal-400">descrição de produto em massa, atendimento via chatbot, classificação
-        de tickets e geração de copy A/B</strong>. Eixo crítico é custo por interação — Haiku 4.5 domina e prompt caching vira
-        obrigatório, não otimização.
+        E-commerce é o setor onde IA gera ROI mais rápido e mais visível — porque
+        <strong class="text-teal-400">tudo é volume</strong>. Cadastro de produto, descrição, suporte, categorização, FAQ
+        automatizado. O workshop daqui é menos sobre "se" e mais sobre "como industrializar". Prompt caching e modelo Haiku
+        4.5 viram protagonistas — economia de 60-90% via cache mata qualquer dúvida sobre viabilidade.
       </p>
 
       <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">📦</span> Adaptações chave</h3>
-        <ul class="space-y-2 text-neutral-300">
-          <li><strong class="text-white">Modelo default:</strong> Haiku 4.5 ($1/$5 por MTok). Sonnet só pra casos que requerem raciocínio denso. Opus quase nunca.</li>
-          <li><strong class="text-white">Prompt caching:</strong> obrigatório quando volume &gt; 10k requests/mês. Economia 60–90% documentada.</li>
-          <li><strong class="text-white">Casos de uso típicos:</strong> auto-completar descrição de SKU, traduzir descrição pra N idiomas, classificar tickets de suporte, gerar copy A/B de e-mail.</li>
-          <li><strong class="text-white">Métrica que vende:</strong> custo por interação (¢), volume processado, latência. CFO entende esses números.</li>
-          <li><strong class="text-white">Pricing:</strong> tabela padrão; ciclo curto (1–2 meses) porque ROI é numérico.</li>
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">📦</span> Pilha técnica que o workshop precisa cobrir</h3>
+        <ul class="space-y-2 text-neutral-300 text-sm">
+          <li><strong class="text-white">Haiku 4.5</strong> — modelo rápido e barato pro volume ($1/$5 por MTok)</li>
+          <li><strong class="text-white">Prompt caching</strong> — system prompt de catálogo cacheado, economia 60-90%</li>
+          <li><strong class="text-white">Batch API</strong> — processar 10k descrições de uma vez, custo reduzido</li>
+          <li><strong class="text-white">Structured outputs</strong> — JSON pra plugar direto no PIM</li>
+          <li><strong class="text-white">Scheduled tasks</strong> — atualização noturna de categorização</li>
         </ul>
       </div>
 
       <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🧮</span> Cálculo de ROI típico</h3>
-        <pre class="bg-dark-900 rounded-lg p-4 text-sm text-neutral-300 overflow-x-auto font-mono whitespace-pre-wrap"><code>Cenário: marketplace com 100k SKUs novos/mês
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">💰</span> Conta típica que abre a cabeça</h3>
+        <pre class="bg-dark-900 rounded-lg p-4 text-sm text-neutral-300 overflow-x-auto font-mono whitespace-pre-wrap"><code>Cenário: 50.000 SKUs sem descrição padronizada
 
-Antes (humano descrevendo):
-  100k × 5 min × $0.30/min = $150.000/mês
+Sem IA:
+  · Redator: ~5 min por descrição
+  · 50.000 × 5 min = 4.166 h
+  · Custo a R$ 50/h = R$ 208.000
+  · Prazo realista: 6-9 meses
 
-Com Haiku 4.5 + prompt caching:
-  Input ~300 tok × 100k = 30M tok input
-  Output ~150 tok × 100k = 15M tok output
-  Custo: ~$30 input + ~$75 output ≈ $105/mês
-  + revisão humana 10% (~$15.000/mês)
+Com IA (Haiku 4.5 + caching):
+  · ~2k tokens entrada (cacheada) + 300 saída
+  · Custo por descrição: ~US$ 0,002
+  · 50.000 × US$ 0,002 = US$ 100 (~R$ 500)
+  · Prazo: 1-2 dias com Batch API
+  · Revisão humana sobre 10% amostral: R$ 10.000
 
-  Total: ~$15.105/mês
-  Economia: ~$135k/mês (90%)</code></pre>
+Total IA: ~R$ 10.500   |   Sem IA: ~R$ 208.000
+Redução: ~95%</code></pre>
       </div>
 
-      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
-        <p class="text-neutral-300">
-          Sempre apresente <strong>custo de tokens com tabela visível</strong> nesses workshops. E-commerce decide
-          frio: se a planilha fecha, fecha. Se você fica em "vai economizar bastante", perde pra concorrente que mostra
-          número. Use prompt caching como diferencial competitivo do seu pitch.
-        </p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Haiku</div><div class="text-sm text-neutral-400">Modelo do volume</div></div>
+        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Cache</div><div class="text-sm text-neutral-400">-60 a -90%</div></div>
+        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Batch</div><div class="text-sm text-neutral-400">10k de uma vez</div></div>
+        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">JSON</div><div class="text-sm text-neutral-400">Plug no PIM</div></div>
       </div>
     </section>
 
@@ -253,45 +276,64 @@ Com Haiku 4.5 + prompt caching:
     <section id="topico-4" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">4</span>
-        <h2 class="text-2xl font-bold">🚀 Caso 4: startup técnica</h2>
+        <h2 class="text-2xl font-bold">🚀 Caso 4 — startup técnica (Claude Code)</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Startup engineering-heavy: foco em <strong class="text-teal-400">Claude Code, subagents, Skills, MCP e automação de dev
-        workflow</strong>. Workshop pode (e deve) ir fundo em ciclo agêntico. Outputs concretos: PRs reais, scripts rodando,
-        automações em produção.
+        Time de engenharia em startup é o público mais hostil ao workshop introdutório — porque já está usando IA
+        diariamente. O playbook genérico aqui é desperdício. <strong class="text-teal-400">Workshop para sala técnica
+        é deep dive em Claude Code, agente, subagents, hooks, plugins e Sonnet/Opus 4.x</strong>. Sai dos três produtos
+        (Chat/Cowork/Code) e mergulha direto no Code.
       </p>
 
       <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">💻</span> Adaptações chave</h3>
-        <ul class="space-y-2 text-neutral-300">
-          <li><strong class="text-white">Tom:</strong> técnico, sem analogia infantilizada. Engenheiros rejeitam workshop "raso de prompt engineering".</li>
-          <li><strong class="text-white">Casos de uso:</strong> code review automatizado, refactor com testes preservados, geração de docs, automação de release notes.</li>
-          <li><strong class="text-white">Ferramentas centrais:</strong> Claude Code, Agent SDK, Skills, MCP servers customizados, subagents.</li>
-          <li><strong class="text-white">Outputs do workshop:</strong> 1 PR mergeado, 1 Skill publicada interna, 1 script de automação rodando em CI.</li>
-          <li><strong class="text-white">Pricing:</strong> tabela padrão; ciclo médio (2–4 meses); retainer convertendo bem por causa do ritmo de releases.</li>
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">⚙️</span> Agenda redesenhada</h3>
+        <ul class="space-y-2 text-neutral-300 text-sm">
+          <li><strong class="text-white">1.</strong> Pular intro de prompt básico — todos sabem</li>
+          <li><strong class="text-white">2.</strong> Mostrar Claude Code rodando em repo real (com permissão prévia)</li>
+          <li><strong class="text-white">3.</strong> Adaptive thinking (low/medium/high/xhigh/max) e quando usar cada</li>
+          <li><strong class="text-white">4.</strong> Subagents (Agent tool) e dispatch paralelo</li>
+          <li><strong class="text-white">5.</strong> Skills, plugins, hooks — bundle reusável da equipe</li>
+          <li><strong class="text-white">6.</strong> Prompt caching no SDK, batch, structured outputs</li>
+          <li><strong class="text-white">7.</strong> Quando Opus 4.7 vale o custo (raciocínio denso) vs Sonnet 4.6</li>
+          <li><strong class="text-white">8.</strong> Hackathon: cada dupla cria 1 skill útil pro time</li>
         </ul>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
-          <h4 class="font-bold text-emerald-400 mb-4">✓ O que esse perfil quer ver</h4>
-          <ul class="space-y-2 text-neutral-300 text-sm">
-            <li>Demo live de Claude Code resolvendo bug real</li>
-            <li>Subagent paralelizando análise de codebase</li>
-            <li>Skill ou MCP server feito durante o workshop</li>
-            <li>Discussão de custo de tokens em escala</li>
-          </ul>
-        </div>
-        <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
-          <h4 class="font-bold text-red-400 mb-4">✗ O que afasta</h4>
-          <ul class="space-y-2 text-neutral-300 text-sm">
-            <li>"O Claude é como um assistente que..."</li>
-            <li>Demo no claude.ai web em vez de Code</li>
-            <li>Slide "o que é IA" com analogia de carro</li>
-            <li>Ignorar Agent SDK, MCP, Skills</li>
-          </ul>
-        </div>
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🧪</span> Exemplo de skill criada em hackathon</h3>
+        <pre class="bg-dark-900 rounded-lg p-4 text-sm text-neutral-300 overflow-x-auto font-mono whitespace-pre-wrap"><code>.claude/skills/pr-review/SKILL.md
+─────────────────────────────────────────
+---
+name: pr-review
+description: Revisa PR aplicando o style guide
+  interno + checklist de segurança da empresa.
+  Use ao revisar PRs ou quando o usuário pede
+  "review this PR".
+---
+
+Você é revisor sênior. Aplique nesta ordem:
+
+1. Style guide em docs/STYLE.md
+2. Checklist de segurança em docs/SECURITY.md
+3. Cobertura de testes (mínimo 80%)
+4. Performance: queries N+1 e loops aninhados
+5. Mensagem de commit segue convenção
+
+Saída em 4 blocos:
+  - Críticos (bloqueia merge)
+  - Importantes (resolver antes de merge)
+  - Sugestões (opcional)
+  - Elogios (1-2 pontos positivos)</code></pre>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
+        <p class="text-neutral-300">
+          Em sala técnica, deixe o time digitar o prompt na frente de você logo no primeiro bloco. A pior posição é a do
+          "consultor que demonstra". A melhor é a do "par sênior que mostra um truque a mais". Dispute de fronteira técnica
+          é onde a sala fecha cabeça — não dispute, colabore.
+        </p>
       </div>
     </section>
 
@@ -299,44 +341,74 @@ Com Haiku 4.5 + prompt caching:
     <section id="topico-5" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">5</span>
-        <h2 class="text-2xl font-bold">🏛️ Caso 5: governo</h2>
+        <h2 class="text-2xl font-bold">🏛️ Caso 5 — governo (políticas)</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Governo: foco em <strong class="text-teal-400">política de uso institucional, soberania de dado, transparência
-        algorítmica e comunicação com cidadão</strong>. Ciclo de venda longuíssimo, ticket grande, exige paciência. Apoio
-        executivo é mandatório.
+        Governo soma três fricções: <strong class="text-teal-400">compras públicas, soberania de dados e
+        transparência</strong>. O workshop precisa contemplar que a ferramenta usada hoje pode não ser a contratada amanhã,
+        e que toda comunicação assistida por IA pode ser objeto de pedido de acesso à informação. O playbook genérico vira
+        playbook "amarrado em política" — e isso é virtude, não defeito.
       </p>
 
-      <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🏛️</span> Adaptações chave</h3>
-        <ul class="space-y-2 text-neutral-300">
-          <li><strong class="text-white">Eixo central:</strong> política pública de uso de IA, alinhada a marco legal local (no Brasil, PL 2338/2023 e regulações setoriais).</li>
-          <li><strong class="text-white">Soberania:</strong> discutir hospedagem regional, onde dados residem, contratos de processamento.</li>
-          <li><strong class="text-white">Casos de uso:</strong> rascunho de pareceres internos, sumarização de processos longos, comunicação com cidadão (linguagem simples), apoio a triagem.</li>
-          <li><strong class="text-white">Transparência:</strong> registrar quando IA foi usada, quem revisou, o que foi gerado.</li>
-          <li><strong class="text-white">Pricing:</strong> tabela enterprise; ciclo 6–18 meses; processo licitatório exige documentação prévia.</li>
-        </ul>
-      </div>
-
       <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">📋</span> Evidências que governo pede</h3>
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center"><span class="mr-2">📜</span> Restrições típicas no setor</h3>
         <ul class="space-y-2 text-neutral-300 text-sm">
-          <li>• Casos públicos comparáveis (preferencialmente outras esferas governamentais)</li>
-          <li>• Referências formais (não LinkedIn — papéis oficiais, relatórios)</li>
-          <li>• Política de uso modelo (template adaptável ao órgão)</li>
-          <li>• Análise de riscos documentada (alucinação, viés, vazamento)</li>
-          <li>• Plano de capacitação contínua (não evento único)</li>
+          <li><strong class="text-white">Soberania:</strong> preferência por hospedagem nacional ou em jurisdição compatível</li>
+          <li><strong class="text-white">LGPD reforçada:</strong> dado de cidadão tem proteção maior que dado de cliente</li>
+          <li><strong class="text-white">Acesso à informação:</strong> log de uso pode ser solicitado por LAI</li>
+          <li><strong class="text-white">Procurement:</strong> ferramenta de hoje pode ser substituída por concorrente em licitação</li>
+          <li><strong class="text-white">Auditoria interna:</strong> rastreabilidade de decisão assistida por IA</li>
         </ul>
       </div>
 
-      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
-        <p class="text-neutral-300">
-          Governo paga, mas paga depois. <strong>Não conte com receita imediata</strong>. Trate cada ciclo de venda como
-          investimento de 12+ meses. Em compensação, contratos governamentais costumam virar plurianuais e geram
-          referência forte pra setor privado regulado.
-        </p>
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">📝</span> Política mínima pra órgão público</h3>
+        <pre class="bg-dark-900 rounded-lg p-4 text-sm text-neutral-300 overflow-x-auto font-mono whitespace-pre-wrap"><code>POLÍTICA DE USO DE IA — [Órgão]
+─────────────────────────────────────────────
+
+1. Uso autorizado apenas em ferramentas listadas
+   em ato administrativo vigente.
+
+2. Vedação absoluta: dado pessoal sensível, dado
+   sigiloso, processo em segredo de justiça.
+
+3. Documento oficial assistido por IA deve constar
+   em metadados: "auxílio de IA — revisão humana".
+
+4. Decisões administrativas com efeito sobre direito
+   de cidadão NÃO podem ser tomadas por IA. Apoio
+   informacional é permitido; decisão final é humana.
+
+5. Registro de uso: log mínimo de prompts e datas,
+   passível de auditoria pelo controle interno.
+
+6. Servidor em dúvida: consultar [comissão] ANTES.
+
+Aprovado por: [autoridade]   Data: __/__/____</code></pre>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+          <h4 class="font-bold text-emerald-400 mb-4">✓ Usos compatíveis</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>Resumo de literatura técnica e normas</li>
+            <li>Rascunho de comunicação interna</li>
+            <li>Sumário de relatórios longos</li>
+            <li>Linguagem clara: traduzir norma pro cidadão</li>
+            <li>Brainstorm em fase pré-decisória</li>
+          </ul>
+        </div>
+        <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+          <h4 class="font-bold text-red-400 mb-4">✗ Usos vedados ou de alto risco</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>Decisão sobre direito de cidadão</li>
+            <li>Análise de processo em segredo</li>
+            <li>Dados pessoais sensíveis</li>
+            <li>Parecer técnico sem revisão humana</li>
+            <li>Resposta a pedido de LAI sem checagem</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -344,109 +416,101 @@ Com Haiku 4.5 + prompt caching:
     <section id="topico-6" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">6</span>
-        <h2 class="text-2xl font-bold">🔧 Como adaptar o playbook por setor</h2>
+        <h2 class="text-2xl font-bold">🧭 Como adaptar o playbook por setor</h2>
       </div>
 
       <p class="text-neutral-300 mb-6 leading-relaxed">
-        Adaptação genérica não convence. Adaptação específica vira ROI imediato. O método de
-        <strong class="text-teal-400">4 perguntas antes de qualquer workshop</strong> — respondidas com sponsor — vale mais que
-        20 horas de pesquisa solta na web.
+        A regra geral cabe em uma frase: <strong class="text-teal-400">descubra o medo dominante e ataque ele no segundo
+        slot da agenda</strong>. Saúde teme vazar paciente. Jurídico teme alucinar precedente. E-commerce teme custo
+        operacional. Startup teme parecer ingênua. Governo teme infração de política. Cada um pede uma rearrumação cirúrgica
+        do mesmo playbook.
       </p>
 
+      <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🔍</span> Matriz de adaptação rápida</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-neutral-300">
+            <thead>
+              <tr class="border-b border-dark-600 text-teal-400">
+                <th class="text-left py-2 pr-4">Setor</th>
+                <th class="text-left py-2 pr-4">Medo dominante</th>
+                <th class="text-left py-2">Slot #2 da agenda</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-dark-600">
+              <tr><td class="py-2 pr-4">Saúde</td><td class="py-2 pr-4">Vazar paciente</td><td class="py-2">LGPD + dados clínicos</td></tr>
+              <tr><td class="py-2 pr-4">Jurídico</td><td class="py-2 pr-4">Alucinar precedente</td><td class="py-2">Caso Mata v. Avianca + revisão obrigatória</td></tr>
+              <tr><td class="py-2 pr-4">E-commerce</td><td class="py-2 pr-4">Custo operacional</td><td class="py-2">Haiku + caching + Batch API</td></tr>
+              <tr><td class="py-2 pr-4">Startup técnica</td><td class="py-2 pr-4">Parecer ingênua</td><td class="py-2">Direto em Claude Code, skills, subagents</td></tr>
+              <tr><td class="py-2 pr-4">Governo</td><td class="py-2 pr-4">Infringir política</td><td class="py-2">Política interna + rastreabilidade</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
+          <h4 class="font-bold text-emerald-400 mb-4">✓ O que NÃO muda entre setores</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>Estrutura "show-then-do" (3.4)</li>
+            <li>Demos gravadas como backup (3.4)</li>
+            <li>Survey antes/depois (5.4)</li>
+            <li>Fechamento 1-2-3 (5.1)</li>
+            <li>Cadência D+0/D+2/D+7/D+30 (5.5)</li>
+            <li>Métricas de 4 dimensões (5.4)</li>
+          </ul>
+        </div>
+        <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+          <h4 class="font-bold text-blue-400 mb-4">🎯 O que SEMPRE muda por setor</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>Casos de uso da prática hands-on</li>
+            <li>Política/governança apresentada no slot 2</li>
+            <li>Stack técnica enfatizada (Haiku x Opus x Code)</li>
+            <li>Sponsor obrigatório (CISO, jurídico, etc.)</li>
+            <li>Linguagem: clínico, técnico, administrativo</li>
+            <li>Casos a evitar nas demos</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center"><span class="mr-2">💡</span> Dica prática</h3>
+        <p class="text-neutral-300">
+          Pergunta única na call de descoberta com o sponsor: <em>"qual é o pior cenário que você imagina acontecendo
+          numa equipe usando IA hoje?"</em>. A resposta dele é literalmente o tópico do slot 2 do workshop. Use a frase
+          dele de volta no kick-off — sponsor sente que foi ouvido e a sala sente que o consultor entendeu o contexto.
+        </p>
+      </div>
+
       <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">❓</span> 4 perguntas pré-workshop</h3>
-        <pre class="bg-dark-900 rounded-lg p-4 text-sm text-neutral-300 overflow-x-auto font-mono whitespace-pre-wrap"><code>1. QUAL É O EIXO REGULATÓRIO?
-   Saúde → LGPD/HIPAA
-   Jurídico → privilege, jurisprudência
-   E-commerce → consumidor, PIX, CDC
-   Startup → relativamente livre
-   Governo → marco legal IA, soberania
-
-2. QUAL É O TRABALHO QUE PAGA A CONTA?
-   Onde está o core revenue do cliente?
-   IA tem que tocar esse trabalho, não áreas
-   periféricas — senão patrocinador não vê valor.
-
-3. ONDE ESTÁ O ROI MAIS ÓBVIO?
-   Procure o gargalo de tempo/custo conhecido.
-   Tipicamente: descrição em massa (e-commerce),
-   resumo de documento longo (jurídico/saúde),
-   code review (eng).
-
-4. QUAL É O TABU INTERNO?
-   "Não falamos de substituir gente"
-   "Não usamos dados de cliente em demo"
-   "Não tocamos no sistema legado"
-   Saber o tabu antes evita queimar a sessão.</code></pre>
-      </div>
-
-      <div class="space-y-6 mb-6">
-        <div class="flex items-start space-x-4">
-          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center"><span class="text-teal-400 font-bold">1</span></div>
-          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
-            <h4 class="font-semibold text-white mb-2">Reúna com sponsor 60 min antes</h4>
-            <p class="text-neutral-300 text-sm">Não webinar. Reunião 1:1 com decisor. 4 perguntas, 60 min, anotações.</p>
-          </div>
-        </div>
-        <div class="flex items-start space-x-4">
-          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center"><span class="text-teal-400 font-bold">2</span></div>
-          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
-            <h4 class="font-semibold text-white mb-2">Customize ao menos 3 demos</h4>
-            <p class="text-neutral-300 text-sm">Use o vocabulário do setor. Substitua exemplos genéricos por exemplos colhidos na reunião com sponsor.</p>
-          </div>
-        </div>
-        <div class="flex items-start space-x-4">
-          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center"><span class="text-teal-400 font-bold">3</span></div>
-          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
-            <h4 class="font-semibold text-white mb-2">Calibre o tom regulatório</h4>
-            <p class="text-neutral-300 text-sm">Setor regulado: governança vira eixo. Setor livre: deixe pra slide final. Não inverta.</p>
-          </div>
-        </div>
-        <div class="flex items-start space-x-4">
-          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center"><span class="text-teal-400 font-bold">4</span></div>
-          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
-            <h4 class="font-semibold text-white mb-2">Verifique o tabu antes de pisar nele</h4>
-            <p class="text-neutral-300 text-sm">Confirme com sponsor que pode falar X. Tabu desrespeitado mata a sessão em 5 minutos.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Regulatório</div><div class="text-sm text-neutral-400">Eixo do setor</div></div>
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Core revenue</div><div class="text-sm text-neutral-400">Onde IA toca</div></div>
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">ROI óbvio</div><div class="text-sm text-neutral-400">Gargalo conhecido</div></div>
-        <div class="bg-dark-800 rounded-lg p-4 border border-dark-600"><div class="text-teal-400 font-bold mb-1">Tabu</div><div class="text-sm text-neutral-400">Saber antes</div></div>
+        <h3 class="text-lg font-semibold text-teal-400 mb-4 flex items-center"><span class="mr-2">🎬</span> Final do curso</h3>
+        <p class="text-neutral-300 leading-relaxed">
+          Esse é o último módulo. Você cobriu enquadramento e autoridade (T1), os três produtos e modelos mentais (T2),
+          pré-produção de demos (T3), tour guiado da interface (T4) e fechamento/continuidade (T5). O playbook completo
+          está na sua mão. <strong class="text-teal-400">A próxima turma é sua.</strong>
+        </p>
       </div>
     </section>
 
-    <!-- RESUMO FINAL -->
+    <!-- RESUMO -->
     <section class="mb-12">
       <div class="bg-gradient-to-br from-teal-900/30 via-dark-800 to-dark-800 rounded-xl border border-teal-500/30 p-8">
-        <h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📋</span> Resumo do Módulo</h2>
+        <h2 class="text-2xl font-bold mb-6 flex items-center"><span class="mr-3">📋</span> Resumo do Módulo (e do curso)</h2>
         <div class="space-y-4 mb-8">
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Saúde</strong><span class="text-neutral-400"> — compliance é eixo, dados sintéticos, premium 30-50%</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Jurídico</strong><span class="text-neutral-400"> — privilege, verificação de citação, trauma do caso Mata</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">E-commerce</strong><span class="text-neutral-400"> — Haiku 4.5, prompt caching, ROI numérico</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Startup técnica</strong><span class="text-neutral-400"> — Claude Code, Agent SDK, outputs executáveis</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Governo</strong><span class="text-neutral-400"> — ciclo 12+ meses, política institucional, referências formais</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">4 perguntas pré-workshop</strong><span class="text-neutral-400"> — regulatório, core revenue, ROI óbvio, tabu</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Saúde: LGPD + dados clínicos no slot 2</strong><span class="text-neutral-400"> — nada de prontuário no chat</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Jurídico: caso Mata v. Avianca abre a sessão</strong><span class="text-neutral-400"> — revisão humana obrigatória</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">E-commerce: Haiku + caching + Batch</strong><span class="text-neutral-400"> — ROI imediato em volume</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Startup técnica: direto em Claude Code</strong><span class="text-neutral-400"> — pular intro, mergulhar em skills/subagents</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Governo: política e rastreabilidade no slot 2</strong><span class="text-neutral-400"> — decisão final é humana</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Regra geral: ataque o medo dominante no slot 2</strong><span class="text-neutral-400"> — pergunta única ao sponsor descobre qual</span></div></div>
         </div>
-
-        <div class="bg-dark-800/50 rounded-lg p-6 mb-8">
-          <h3 class="font-semibold text-teal-400 mb-3 text-xl">🏁 Fim do curso</h3>
-          <p class="text-neutral-300 mb-3">
-            Este é o último módulo. Você completou as 5 trilhas: enquadramento, três produtos + modelos mentais,
-            pré-produção de demos, tour da interface, e fechamento com continuidade.
-          </p>
-          <p class="text-neutral-300">
-            Lembre do frame da Trilha 5.2: <strong class="text-teal-400">terminar o curso é finito; praticar Claude é
-            infinito</strong>. Saia daqui com sensação de "comecei", não "concluí".
-          </p>
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-teal-400 mb-2">Você terminou o curso 🎉</h3>
+          <p class="text-neutral-300">Trilhas 1 a 5 concluídas. Playbook completo na mão. Próximo passo: marcar a primeira turma.</p>
         </div>
-
         <div class="flex flex-col sm:flex-row gap-4">
           <a href="modulo-5-5.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">← Módulo Anterior</a>
-          <a href="../../index.html" class="flex-1 text-center px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-500 transition-colors">🏁 Voltar à landing →</a>
+          <a href="../../index.html" class="flex-1 text-center px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-500 transition-colors">Voltar à landing →</a>
         </div>
       </div>
     </section>
